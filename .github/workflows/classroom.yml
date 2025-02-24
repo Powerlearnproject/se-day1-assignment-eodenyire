@@ -19,7 +19,14 @@ jobs:
 
       - name: Run Quiz 1
         id: quiz-1
-        run: echo "b" | ./quiz1.sh
+        uses: classroom-resources/autograding-io-grader@v1
+        with:
+          test-name: Quiz 1
+          command: echo "b" | ./quiz1.sh
+          expected-output: "Correct"
+          comparison-method: exact
+          timeout: 10
+          max-score: 10
 
       - name: Autograding Reporter
         uses: classroom-resources/autograding-grading-reporter@v1
