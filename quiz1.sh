@@ -1,12 +1,6 @@
 #!/bin/bash
 
-echo "Which of the following best describes software engineering?"
-echo "a) The study of hardware components"
-echo "b) The process of designing, developing, and maintaining software"
-echo "c) The analysis of networking protocols"
-echo "d) The management of data storage systems"
-
-read answer
+answer=${1,,}  # Accepts the first command-line argument and converts it to lowercase
 
 if [ "$answer" == "b" ]; then
     echo "Correct"
