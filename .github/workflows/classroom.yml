@@ -1,5 +1,5 @@
 name: Autograding Tests
-on:
+'on':
   - push
   - repository_dispatch
 permissions:
@@ -13,13 +13,17 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Make quiz1.sh executable
+        run: chmod +x quiz1.sh
+
       - name: Run Quiz 1
         id: quiz-1
-        run: bash quiz1.sh
+        run: echo "b" | ./quiz1.sh
+
       - name: Autograding Reporter
-        if: always()  # Ensures this step runs regardless of the previous step's outcome
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
-          QUIZ-1_RESULTS: "${{steps.quiz-1.outcome}}"
+          QUIZ-1_RESULTS: "${{ steps.quiz-1.outputs.result }}"
         with:
           runners: quiz-1
