@@ -15,12 +15,11 @@ jobs:
         uses: actions/checkout@v4
       - name: Run Quiz 1
         id: quiz-1
-        run: |
-          #!/bin/bash
-          bash quiz1.sh b
+        run: bash quiz1.sh
       - name: Autograding Reporter
+        if: always()  # Ensures this step runs regardless of the previous step's outcome
         uses: classroom-resources/autograding-grading-reporter@v1
         env:
-          QUIZ-1_RESULTS: "${{steps.quiz-1.outputs.result}}"
+          QUIZ-1_RESULTS: "${{steps.quiz-1.outcome}}"
         with:
           runners: quiz-1
