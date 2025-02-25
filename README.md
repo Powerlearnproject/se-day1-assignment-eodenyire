@@ -15,6 +15,18 @@ Systematic Approach: Software engineering provides structured methodologies and 
 In the rapidly evolving technology industry, software engineering is indispensable for delivering high-quality software solutions that are robust, efficient, and aligned with user needs.<br>
 
 **Identify and describe at least three key milestones in the evolution of software engineering.<br>**
+Let's discuss three key milestones in the evolution of software engineering:
+
+1. The Birth of Software Engineering (1968)<br>
+The term "software engineering" was first coined at the NATO Software Engineering Conference in 1968. This was in response to the software crisis, where large software projects were failing due to poor design, high costs, and missed deadlines. This milestone marked the beginning of formal software engineering principles, emphasizing structured programming, modular design, and software lifecycle management.<br>
+
+3. The Rise of Object-Oriented Programming (1970s - 1980s)<br>
+The development and adoption of Object-Oriented Programming (OOP) revolutionized software design. OOP introduced concepts like encapsulation, inheritance, and polymorphism, making code more reusable and maintainable. Languages such as Smalltalk, C++, and later Java popularized this approach, leading to more efficient and scalable software development.<br>
+
+4. The Agile Revolution (2001 - Present)<br>
+The publication of the Agile Manifesto in 2001 transformed software engineering by shifting focus from rigid waterfall models to iterative, flexible, and collaborative development. Agile methodologies such as Scrum and Kanban improved project adaptability, enabling faster releases, continuous integration, and customer feedback-driven development.
+These milestones significantly shaped modern software engineering practices, improving efficiency, reliability, and scalability in software development.<br>
+
 **List and briefly explain the phases of the Software Development Life Cycle.<br>**
 Phases of the Software Development Life Cycle (SDLC):<br>
 Planning and Requirement Analysis: Gather and analyze business requirements to define the project's scope and objectives.<br>
