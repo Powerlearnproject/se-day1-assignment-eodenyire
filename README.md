@@ -7,7 +7,7 @@ Software engineering is a disciplined field of study that focuses on the systema
 
 Importance of software engineering in the Technology Industry<br>
 
-Systematic Approach: Software engineering provides structured methodologies and frameworks, such as the Software Development Life Cycle (SDLC), ensuring that software development is organized and manageable.<br>
++ Systematic Approach: Software engineering provides structured methodologies and frameworks, such as the Software Development Life Cycle (SDLC), ensuring that software development is organized and manageable.<br>
 + Quality Assurance: Through rigorous testing and validation processes, software engineering ensures that software products are reliable, functional, and free from critical defects.<br>
 + Scalability and Maintenance: By emphasizing modularity and documentation, software engineering facilitates the development of software that can evolve with changing requirements and technologies, making maintenance and scalability more manageable.<br>
 + Cost and Time Efficiency: Applying best practices in software engineering helps in optimizing resources, reducing development time, and controlling costs, which is crucial for businesses to remain competitive.<br>
@@ -29,17 +29,17 @@ These milestones significantly shaped modern software engineering practices, imp
 
 **List and briefly explain the phases of the Software Development Life Cycle.<br>**
 Phases of the Software Development Life Cycle (SDLC):<br>
-Planning and Requirement Analysis: Gather and analyze business requirements to define the project's scope and objectives.<br>
-System Design: Develop detailed architecture and design specifications based on the requirements.<br>
-Implementation (Coding): Translate design documents into functional code using appropriate programming languages and tools.<br>
-Testing: Conduct various tests (unit, integration, system, acceptance) to identify and fix defects, ensuring the software meets quality standards.<br>
-Deployment: Release the software to the production environment and make it accessible to end-users.<br>
-Maintenance: Monitor the software post-deployment, addressing issues, and implementing updates or enhancements as needed.<br>
+1. Planning and Requirement Analysis: Gather and analyze business requirements to define the project's scope and objectives.<br>
+2. System Design: Develop detailed architecture and design specifications based on the requirements.<br>
+3. Implementation (Coding): Translate design documents into functional code using appropriate programming languages and tools.<br>
+4. Testing: Conduct various tests (unit, integration, system, acceptance) to identify and fix defects, ensuring the software meets quality standards.<br>
+5. Deployment: Release the software to the production environment and make it accessible to end-users.<br>
+6. Maintenance: Monitor the software post-deployment, addressing issues, and implementing updates or enhancements as needed.<br>
 
 **Compare and contrast the Waterfall and Agile methodologies. Provide examples of scenarios where each would be appropriate.<br>**
 Comparison of Waterfall and Agile Methodologies:<br>
-Waterfall Methodology: A linear and sequential approach where each phase depends on the deliverables of the preceding one. It's best suited for projects with well-defined requirements and minimal expected changes.<br>
-Agile Methodology: An iterative and flexible approach that promotes continuous collaboration and adaptation. Development occurs in small increments called sprints, allowing for regular reassessment and incorporation of changing requirements.<br>
+1. Waterfall Methodology: A linear and sequential approach where each phase depends on the deliverables of the preceding one. It's best suited for projects with well-defined requirements and minimal expected changes.<br>
+2. Agile Methodology: An iterative and flexible approach that promotes continuous collaboration and adaptation. Development occurs in small increments called sprints, allowing for regular reassessment and incorporation of changing requirements.<br>
 
 Scenarios:<br>
 
@@ -53,13 +53,12 @@ Roles and Responsibilities in a Software Engineering Team:<br>
 + Project Manager: Oversees project planning, execution, and completion. Defines project scope, sets timelines, allocates resources, manages budgets, coordinates communication among stakeholders, and implements risk mitigation strategies.<br>
 
 **Discuss the importance of Integrated Development Environments (IDEs) and Version Control Systems (VCS) in the software development process. Give examples of each.<br>**
-Integrated Development Environments (IDEs): IDEs are software applications that provide comprehensive facilities to programmers for software development. They typically include a code editor, debugger, and build automation tools, streamlining the development process and enhancing productivity. Examples include Visual Studio Code, IntelliJ IDEA, and Eclipse.<br>
+1. Integrated Development Environments (IDEs): IDEs are software applications that provide comprehensive facilities to programmers for software development. They typically include a code editor, debugger, and build automation tools, streamlining the development process and enhancing productivity. Examples include Visual Studio Code, IntelliJ IDEA, and Eclipse.<br>
 
-Version Control Systems (VCS): VCS are tools that help manage changes to source code over time, facilitating collaboration among developers and maintaining a history of code modifications. They enable tracking of revisions, branching, and merging of code, which is essential for team-based development. Examples include Git, Subversion (SVN), and Mercurial.<br>
+2. Version Control Systems (VCS): VCS are tools that help manage changes to source code over time, facilitating collaboration among developers and maintaining a history of code modifications. They enable tracking of revisions, branching, and merging of code, which is essential for team-based development. Examples include Git, Subversion (SVN), and Mercurial.<br>
 
 **What are some common challenges faced by software engineers? Provide strategies to overcome these challenges.<br>**
-Keeping Up with Rapid Technological Changes: The tech industry evolves quickly, making it challenging to stay current. Engineers can overcome this by dedicating time to continuous learning through online courses, workshops, and reading industry publications.<br>
-
++ Keeping Up with Rapid Technological Changes: The tech industry evolves quickly, making it challenging to stay current. Engineers can overcome this by dedicating time to continuous learning through online courses, workshops, and reading industry publications.<br>
 + Managing Complex Codebases: As projects grow, codebases become more complex and harder to manage. Utilizing modular design principles, adhering to coding standards, and conducting regular code reviews can help maintain code quality and manageability.<br>
 + Ensuring Effective Communication: Miscommunication can lead to misunderstandings and project delays. Implementing regular team meetings, clear documentation, and using collaborative tools can enhance communication among team members.<br>
 
